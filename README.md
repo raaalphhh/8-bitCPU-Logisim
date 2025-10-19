@@ -51,7 +51,7 @@ Watch the flow of data through the CPU components (ACC, ALU, PC, etc.)
 ```
 ### 👨‍💻 Developers
 ```
-Developed by Group Members – Computer Engineering Students
+Developed by Computer Engineering Students:
 ARMADO, James Neftali B.
 ANDAL, Anthony Aries C.
 BINOSA, Joyce C.
