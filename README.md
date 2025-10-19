@@ -40,14 +40,15 @@ This simulation models an **8-bit accumulator-based processor**, capable of perf
 ├── 8-bitCPU.circ          # Main Logisim circuit file
 ├── 8-bitCPU-Logisim.txt   # Design documentation / backup
 └── README.md
+```
 
 🚀 How to Run the Simulation
-
+```
 Open Logisim Evolution
 Load the circuit file 8-bitCPU.circ
 Click the Clock icon to advance cycles manually or enable Automatic Ticks to observe continuous execution
 Watch the flow of data through the CPU components (ACC, ALU, PC, etc.)
-
+```
 ### 👨‍💻 Developers
 ```
 Developed by Group Members – Computer Engineering Students
