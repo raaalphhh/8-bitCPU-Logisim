@@ -1,17 +1,12 @@
-```markdown
 # 🧮 8-Bit CPU (Logisim Simulation)
 
-### Course Project – Computer Architecture / Logic Design
-
-This repository contains the **Logisim circuit implementation** of an **8-bit CPU**.  
-The design visually demonstrates how basic CPU components interact — including registers, ALU, memory, and control logic — to execute simple instructions.
+This repository contains the **Logisim circuit implementation** of an **8-bit CPU**. The design demonstrates how core CPU components — including the **ALU**, **registers**, **control unit**, and **memory** — interact to execute basic instructions at the logic level.
 
 ---
 
-## 🧩 Overview
+## 🧩 Project Overview
 
-This project simulates the behavior of an **8-bit accumulator-based processor**, capable of performing arithmetic, logic, and control operations.  
-It serves as a **visual educational model** to understand instruction execution at the logic level.
+This simulation models an **8-bit accumulator-based processor**, capable of performing **arithmetic, logic, and control operations**. It serves as a **visual learning tool** to understand the internal workings of a CPU, such as instruction fetching, decoding, and execution cycles.
 
 ---
 
@@ -19,45 +14,39 @@ It serves as a **visual educational model** to understand instruction execution 
 
 | Component | Description |
 |------------|-------------|
-| **Program Counter (PC)** | Keeps track of instruction address |
-| **Instruction Register (IR)** | Holds the current fetched instruction |
-| **Accumulator (ACC)** | Stores intermediate and final computation results |
-| **ALU** | Performs ADD, SUB, AND, OR, XOR, and NOT operations |
+| **Program Counter (PC)** | Tracks the address of the next instruction |
+| **Instruction Register (IR)** | Stores the currently fetched instruction |
+| **Accumulator (ACC)** | Holds intermediate and final results |
+| **Arithmetic Logic Unit (ALU)** | Executes arithmetic and logic operations (ADD, SUB, AND, OR, XOR, NOT) |
 | **Control Unit** | Decodes opcodes and generates control signals |
-| **Memory (RAM)** | Stores 8-bit instructions and data |
+| **Memory (RAM)** | 8-bit instruction and data storage |
 
 ---
 
-## 🧰 Features
+## ⚙️ Features
 
-- 8-bit wide data path  
-- Modular design (ALU, Registers, Control Unit)  
-- Instruction fetching and decoding cycle  
-- Clock-controlled execution  
-- Compatible with Logisim Evolution
+- 🧮 8-bit data width  
+- 🧱 Modular circuit design (ALU, Registers, Control Unit)  
+- 🔄 Instruction fetch-decode-execute cycle  
+- ⏱️ Clock-controlled operation  
+- 🧩 Fully compatible with **Logisim Evolution**
 
 ---
 
-## 🧾 File Structure
+## 📁 File Structure
 
-8bit-CPU-Logisim/
-├── 8bitCPU.circ # Main Logisim circuit file
-├── 8bitCPU.txt 
+```plaintext
+8-bitCPU-Logisim/
+├── 8-bitCPU.circ          # Main Logisim circuit file
+├── 8-bitCPU-Logisim.txt   # Design documentation / backup
 └── README.md
 
-yaml
-Copy code
+🚀 How to Run the Simulation
 
----
-
-## ⚙️ How to Use
-
-1. Open **Logisim Evolution**
-2. Load the circuit file `8bitCPU.circ`
-3. Click the **Clock** to run the CPU cycle manually or enable automatic ticks
-4. Observe data flow in the accumulator, memory, and control lines
-
----
+Open Logisim Evolution
+Load the circuit file 8-bitCPU.circ
+Click the Clock icon to advance cycles manually or enable Automatic Ticks to observe continuous execution
+Watch the flow of data through the CPU components (ACC, ALU, PC, etc.)
 
 ### 👨‍💻 Developers
 ```
